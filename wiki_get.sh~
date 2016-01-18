@@ -13,8 +13,8 @@
 # The above command creates a file Data_compression.7z in the current folder
 
 page=$1
-year_start=0
-outfile=$1
+year_start=$2
+outfile=$3
 
 rm $outfile.7z
 
