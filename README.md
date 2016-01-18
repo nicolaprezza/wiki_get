@@ -5,7 +5,7 @@ mail: nicola.prezza@gmail.com
 
 ### Description
 
-A simple script to download all versions of a Wikipedia page starting from a given year. Wikipedia has a download limit of 1000 versions starting from a given timestamp (https://www.mediawiki.org/wiki/Manual:Parameters_to_Special:Export#cite_note-historynote-2). This script downloads iteratively ALL versions (1000 at a time) of the page by performing POST requests until no more data is returned. All versions are concatenated in the output file, which can be compressed efficiently using, e.g., 7-Zip.
+A simple script to download all versions of a Wikipedia page starting from a given year. Wikipedia has a download limit of 1000 versions starting from a given timestamp (https://www.mediawiki.org/wiki/Manual:Parameters_to_Special:Export). This script downloads iteratively ALL versions (1000 at a time) of the page by performing POST requests until no more data is returned. All versions are concatenated in the output file, which can be compressed efficiently using, e.g., 7-Zip.
 
 ### Usage 
 
